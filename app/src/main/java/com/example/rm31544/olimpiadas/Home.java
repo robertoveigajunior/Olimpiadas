@@ -74,8 +74,9 @@ public class Home extends AppCompatActivity {
                 final AlertDialog.Builder alert = new AlertDialog.Builder(Home.this);
                 alert.setTitle(R.string.success);
                 alert.setMessage(R.string.successOrder);
-                alert.setPositiveButton("Ok",new DialogInterface.OnClickListener() {
+                alert.setPositiveButton(R.string.ok,new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
+                        txtName.requestFocus();
                         txtName.setText("");
                         txtAge.setText("");
                         radioGroup.check(-1);
