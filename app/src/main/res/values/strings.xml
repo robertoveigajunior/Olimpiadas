@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Olimpiadas</string>
+    <string name="success">Sucesso</string>
+    <string name="confirmData">Confimação dos dados</string>
+    <string name="confirm">Confirmar</string>
+    <string name="successOrder">Sua reserva foi efetuada com sucesso</string>
+    <string name="name">Nome</string>
+    <string name="age">Idade</string>
+    <string name="type">Modalidade</string>
+    <string name="time">Periodo</string>
+    <string name="reserve">Reservar</string>
+    <string name="manh_9h_12h">Manhã (9h - 12h)</string>
+    <string name="tarde_12h_18h">Tarde (12h - 18h)</string>
+    <string name="noite_18h_23h">Noite (18h - 23h)</string>
+    <string name="allFields">Preencher todos os campos</string>
+</resources>
